@@ -1,0 +1,5 @@
+service : {
+  add: (nat) -> () oneway;
+  checkbalance: () -> (nat) query;
+  subtract: (nat) -> () oneway;
+}
